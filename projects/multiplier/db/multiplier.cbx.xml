@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="multiplier">
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst1|lpm_clshift0:inst1|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_djb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst|lpm_add_sub0:inst3|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_uoh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst1|lpm_add_sub0:inst3|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_uoh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst2|BUSMUX:inst4|lpm_mux:$00000" CBX_FILE_NAME="mux_erc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst2|lpm_clshift0:inst1|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_djb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst4|lpm_clshift1:inst2|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_skb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst|lpm_clshift1:inst2|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_skb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst1|lpm_clshift1:inst2|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_skb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst2|lpm_add_sub0:inst3|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_uoh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst3|BUSMUX:inst4|lpm_mux:$00000" CBX_FILE_NAME="mux_erc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst3|lpm_clshift0:inst1|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_djb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst2|lpm_clshift1:inst2|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_skb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst3|lpm_add_sub0:inst3|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_uoh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst4|BUSMUX:inst4|lpm_mux:$00000" CBX_FILE_NAME="mux_erc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst4|lpm_clshift0:inst1|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_djb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst|BUSMUX:inst4|lpm_mux:$00000" CBX_FILE_NAME="mux_erc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst|lpm_clshift0:inst1|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_djb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst1|BUSMUX:inst4|lpm_mux:$00000" CBX_FILE_NAME="mux_erc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst3|lpm_clshift1:inst2|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_skb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|5multiplier|multiplier:inst4|lpm_add_sub0:inst3|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_uoh.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
