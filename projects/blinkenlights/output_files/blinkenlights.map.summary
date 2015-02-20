@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Feb 17 16:03:52 2015
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : blinkenlights
+Top-level Entity Name : blinkenlights
+Family : Cyclone III
+Total logic elements : 30
+    Total combinational functions : 30
+    Dedicated logic registers : 30
+Total registers : 30
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
