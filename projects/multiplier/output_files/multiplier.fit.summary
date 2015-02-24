@@ -1,14 +1,14 @@
-Fitter Status : Successful - Tue Feb 24 14:15:35 2015
+Fitter Status : Successful - Tue Feb 24 14:44:23 2015
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : multiplier
 Top-level Entity Name : 5multiplier
 Family : Cyclone III
 Device : EP3C16F484C6
 Timing Models : Final
-Total logic elements : 61 / 15,408 ( < 1 % )
-    Total combinational functions : 59 / 15,408 ( < 1 % )
-    Dedicated logic registers : 20 / 15,408 ( < 1 % )
-Total registers : 20
+Total logic elements : 80 / 15,408 ( < 1 % )
+    Total combinational functions : 40 / 15,408 ( < 1 % )
+    Dedicated logic registers : 79 / 15,408 ( < 1 % )
+Total registers : 79
 Total pins : 21 / 347 ( 6 % )
 Total virtual pins : 0
 Total memory bits : 0 / 516,096 ( 0 % )
