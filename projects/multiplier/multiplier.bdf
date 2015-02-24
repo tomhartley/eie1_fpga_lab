@@ -26,7 +26,7 @@ applicable agreement for further details.
 	(input)
 	(rect 440 296 608 312)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A[4..0]" (rect 5 0 39 12)(font "Arial" ))
+	(text "A[4..0]" (rect 5 0 38 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -42,7 +42,7 @@ applicable agreement for further details.
 	(input)
 	(rect 440 320 608 336)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B[4..0]" (rect 5 0 39 12)(font "Arial" ))
+	(text "B[4..0]" (rect 5 0 38 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -58,7 +58,7 @@ applicable agreement for further details.
 	(input)
 	(rect 312 448 480 464)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "R[9..0]" (rect 5 0 40 12)(font "Arial" ))
+	(text "R[9..0]" (rect 5 0 39 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -466,22 +466,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 640 128)
-	(pt 688 128)
-	(bus)
-)
-(connector
-	(pt 688 128)
-	(pt 728 128)
-	(bus)
-)
-(connector
-	(text "Ain[4..0]" (rect 624 83 636 124)(font "Arial" )(vertical))
-	(pt 640 128)
-	(pt 640 104)
-	(bus)
-)
-(connector
 	(text "Ain[7..5]" (rect 712 83 724 124)(font "Arial" )(vertical))
 	(pt 728 128)
 	(pt 728 104)
@@ -594,6 +578,22 @@ applicable agreement for further details.
 	(text "Bin[4..0]" (rect 738 312 779 324)(font "Arial" ))
 	(pt 728 328)
 	(pt 856 328)
+	(bus)
+)
+(connector
+	(text "Ain[4..0]" (rect 624 83 636 124)(font "Arial" )(vertical))
+	(pt 640 104)
+	(pt 640 128)
+	(bus)
+)
+(connector
+	(pt 688 128)
+	(pt 728 128)
+	(bus)
+)
+(connector
+	(pt 640 128)
+	(pt 688 128)
 	(bus)
 )
 (junction (pt 728 328))
