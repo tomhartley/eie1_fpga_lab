@@ -43,7 +43,7 @@ ENTITY lpm_compare0 IS
 	PORT
 	(
 		dataa		: IN STD_LOGIC_VECTOR (19 DOWNTO 0);
-		aeb		: OUT STD_LOGIC 
+		alb		: OUT STD_LOGIC 
 	);
 END lpm_compare0;
 
@@ -64,16 +64,16 @@ ARCHITECTURE SYN OF lpm_compare0 IS
 		lpm_width		: NATURAL
 	);
 	PORT (
-			aeb	: OUT STD_LOGIC ;
+			alb	: OUT STD_LOGIC ;
 			dataa	: IN STD_LOGIC_VECTOR (19 DOWNTO 0);
 			datab	: IN STD_LOGIC_VECTOR (19 DOWNTO 0)
 	);
 	END COMPONENT;
 
 BEGIN
-	sub_wire1_bv(19 DOWNTO 0) <= "00000000000000000000";
+	sub_wire1_bv(19 DOWNTO 0) <= "00000000000000110010";
 	sub_wire1    <= To_stdlogicvector(sub_wire1_bv);
-	aeb    <= sub_wire0;
+	alb    <= sub_wire0;
 
 	LPM_COMPARE_component : LPM_COMPARE
 	GENERIC MAP (
@@ -85,7 +85,7 @@ BEGIN
 	PORT MAP (
 		dataa => dataa,
 		datab => sub_wire1,
-		aeb => sub_wire0
+		alb => sub_wire0
 	);
 
 
@@ -95,16 +95,16 @@ END SYN;
 -- ============================================================
 -- CNX file retrieval info
 -- ============================================================
--- Retrieval info: PRIVATE: AeqB NUMERIC "1"
+-- Retrieval info: PRIVATE: AeqB NUMERIC "0"
 -- Retrieval info: PRIVATE: AgeB NUMERIC "0"
 -- Retrieval info: PRIVATE: AgtB NUMERIC "0"
 -- Retrieval info: PRIVATE: AleB NUMERIC "0"
--- Retrieval info: PRIVATE: AltB NUMERIC "0"
+-- Retrieval info: PRIVATE: AltB NUMERIC "1"
 -- Retrieval info: PRIVATE: AneB NUMERIC "0"
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
 -- Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "0"
 -- Retrieval info: PRIVATE: Latency NUMERIC "0"
--- Retrieval info: PRIVATE: PortBValue NUMERIC "0"
+-- Retrieval info: PRIVATE: PortBValue NUMERIC "50"
 -- Retrieval info: PRIVATE: Radix NUMERIC "10"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: SignedCompare NUMERIC "0"
@@ -118,11 +118,11 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "UNSIGNED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COMPARE"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "20"
--- Retrieval info: USED_PORT: aeb 0 0 0 0 OUTPUT NODEFVAL "aeb"
+-- Retrieval info: USED_PORT: alb 0 0 0 0 OUTPUT NODEFVAL "alb"
 -- Retrieval info: USED_PORT: dataa 0 0 20 0 INPUT NODEFVAL "dataa[19..0]"
 -- Retrieval info: CONNECT: @dataa 0 0 20 0 dataa 0 0 20 0
--- Retrieval info: CONNECT: @datab 0 0 20 0 0 0 0 20 0
--- Retrieval info: CONNECT: aeb 0 0 0 0 @aeb 0 0 0 0
+-- Retrieval info: CONNECT: @datab 0 0 20 0 50 0 0 20 0
+-- Retrieval info: CONNECT: alb 0 0 0 0 @alb 0 0 0 0
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.inc FALSE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.cmp TRUE

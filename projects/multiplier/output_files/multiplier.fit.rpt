@@ -1,5 +1,5 @@
 Fitter report for multiplier
-Tue Feb 24 14:44:23 2015
+Wed Mar 25 17:10:37 2015
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -67,7 +67,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                        ;
 +------------------------------------+--------------------------------------------------+
-; Fitter Status                      ; Successful - Tue Feb 24 14:44:23 2015            ;
+; Fitter Status                      ; Successful - Wed Mar 25 17:10:37 2015            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; multiplier                                       ;
 ; Top-level Entity Name              ; 5multiplier                                      ;
@@ -155,12 +155,12 @@ applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.11        ;
+; Average used               ; 1.22        ;
 ; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  11.1%      ;
+;     Processor 2            ;  22.2%      ;
 ;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -1630,9 +1630,9 @@ Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
 Info (144001): Generated suppressed messages file H:/FPGA/eie1_fpga_lab/projects/multiplier/output_files/multiplier.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 887 megabytes
-    Info: Processing ended: Tue Feb 24 14:44:24 2015
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:10
+    Info: Processing ended: Wed Mar 25 17:10:38 2015
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:09
 
 
 +----------------------------+

@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for blinkenlights
-Tue Feb 17 16:05:21 2015
+Wed Mar 25 16:57:02 2015
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -505,17 +505,17 @@ No paths to report.
 +------------+------------+-------+-------+------------+-----------------+
 ; Data Port  ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +------------+------------+-------+-------+------------+-----------------+
-; output[*]  ; clock_in   ; 7.083 ; 7.248 ; Rise       ; clock_in        ;
-;  output[0] ; clock_in   ; 5.914 ; 5.963 ; Rise       ; clock_in        ;
-;  output[1] ; clock_in   ; 5.920 ; 5.976 ; Rise       ; clock_in        ;
-;  output[2] ; clock_in   ; 6.073 ; 6.093 ; Rise       ; clock_in        ;
-;  output[3] ; clock_in   ; 5.897 ; 5.925 ; Rise       ; clock_in        ;
-;  output[4] ; clock_in   ; 5.617 ; 5.653 ; Rise       ; clock_in        ;
-;  output[5] ; clock_in   ; 5.614 ; 5.648 ; Rise       ; clock_in        ;
-;  output[6] ; clock_in   ; 5.892 ; 5.951 ; Rise       ; clock_in        ;
-;  output[7] ; clock_in   ; 7.083 ; 7.248 ; Rise       ; clock_in        ;
-;  output[8] ; clock_in   ; 5.886 ; 5.948 ; Rise       ; clock_in        ;
-;  output[9] ; clock_in   ; 5.888 ; 5.942 ; Rise       ; clock_in        ;
+; output[*]  ; clock_in   ; 7.076 ; 7.238 ; Rise       ; clock_in        ;
+;  output[0] ; clock_in   ; 6.047 ; 6.083 ; Rise       ; clock_in        ;
+;  output[1] ; clock_in   ; 5.932 ; 5.989 ; Rise       ; clock_in        ;
+;  output[2] ; clock_in   ; 5.932 ; 5.958 ; Rise       ; clock_in        ;
+;  output[3] ; clock_in   ; 5.915 ; 5.958 ; Rise       ; clock_in        ;
+;  output[4] ; clock_in   ; 5.614 ; 5.648 ; Rise       ; clock_in        ;
+;  output[5] ; clock_in   ; 5.617 ; 5.653 ; Rise       ; clock_in        ;
+;  output[6] ; clock_in   ; 5.893 ; 5.953 ; Rise       ; clock_in        ;
+;  output[7] ; clock_in   ; 7.076 ; 7.238 ; Rise       ; clock_in        ;
+;  output[8] ; clock_in   ; 6.061 ; 6.085 ; Rise       ; clock_in        ;
+;  output[9] ; clock_in   ; 5.925 ; 5.989 ; Rise       ; clock_in        ;
 +------------+------------+-------+-------+------------+-----------------+
 
 
@@ -525,16 +525,16 @@ No paths to report.
 ; Data Port  ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +------------+------------+-------+-------+------------+-----------------+
 ; output[*]  ; clock_in   ; 5.501 ; 5.533 ; Rise       ; clock_in        ;
-;  output[0] ; clock_in   ; 5.789 ; 5.836 ; Rise       ; clock_in        ;
-;  output[1] ; clock_in   ; 5.795 ; 5.848 ; Rise       ; clock_in        ;
-;  output[2] ; clock_in   ; 5.942 ; 5.960 ; Rise       ; clock_in        ;
-;  output[3] ; clock_in   ; 5.772 ; 5.799 ; Rise       ; clock_in        ;
-;  output[4] ; clock_in   ; 5.504 ; 5.537 ; Rise       ; clock_in        ;
-;  output[5] ; clock_in   ; 5.501 ; 5.533 ; Rise       ; clock_in        ;
-;  output[6] ; clock_in   ; 5.767 ; 5.823 ; Rise       ; clock_in        ;
-;  output[7] ; clock_in   ; 6.959 ; 7.121 ; Rise       ; clock_in        ;
-;  output[8] ; clock_in   ; 5.761 ; 5.820 ; Rise       ; clock_in        ;
-;  output[9] ; clock_in   ; 5.763 ; 5.814 ; Rise       ; clock_in        ;
+;  output[0] ; clock_in   ; 5.917 ; 5.951 ; Rise       ; clock_in        ;
+;  output[1] ; clock_in   ; 5.806 ; 5.861 ; Rise       ; clock_in        ;
+;  output[2] ; clock_in   ; 5.807 ; 5.831 ; Rise       ; clock_in        ;
+;  output[3] ; clock_in   ; 5.790 ; 5.831 ; Rise       ; clock_in        ;
+;  output[4] ; clock_in   ; 5.501 ; 5.533 ; Rise       ; clock_in        ;
+;  output[5] ; clock_in   ; 5.504 ; 5.537 ; Rise       ; clock_in        ;
+;  output[6] ; clock_in   ; 5.768 ; 5.825 ; Rise       ; clock_in        ;
+;  output[7] ; clock_in   ; 6.952 ; 7.111 ; Rise       ; clock_in        ;
+;  output[8] ; clock_in   ; 5.929 ; 5.951 ; Rise       ; clock_in        ;
+;  output[9] ; clock_in   ; 5.799 ; 5.859 ; Rise       ; clock_in        ;
 +------------+------------+-------+-------+------------+-----------------+
 
 
@@ -922,17 +922,17 @@ No paths to report.
 +------------+------------+-------+-------+------------+-----------------+
 ; Data Port  ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +------------+------------+-------+-------+------------+-----------------+
-; output[*]  ; clock_in   ; 6.785 ; 6.919 ; Rise       ; clock_in        ;
-;  output[0] ; clock_in   ; 5.616 ; 5.634 ; Rise       ; clock_in        ;
-;  output[1] ; clock_in   ; 5.622 ; 5.646 ; Rise       ; clock_in        ;
-;  output[2] ; clock_in   ; 5.774 ; 5.764 ; Rise       ; clock_in        ;
-;  output[3] ; clock_in   ; 5.599 ; 5.616 ; Rise       ; clock_in        ;
-;  output[4] ; clock_in   ; 5.341 ; 5.358 ; Rise       ; clock_in        ;
-;  output[5] ; clock_in   ; 5.338 ; 5.354 ; Rise       ; clock_in        ;
-;  output[6] ; clock_in   ; 5.593 ; 5.621 ; Rise       ; clock_in        ;
-;  output[7] ; clock_in   ; 6.785 ; 6.919 ; Rise       ; clock_in        ;
-;  output[8] ; clock_in   ; 5.587 ; 5.615 ; Rise       ; clock_in        ;
-;  output[9] ; clock_in   ; 5.588 ; 5.608 ; Rise       ; clock_in        ;
+; output[*]  ; clock_in   ; 6.779 ; 6.908 ; Rise       ; clock_in        ;
+;  output[0] ; clock_in   ; 5.750 ; 5.741 ; Rise       ; clock_in        ;
+;  output[1] ; clock_in   ; 5.631 ; 5.658 ; Rise       ; clock_in        ;
+;  output[2] ; clock_in   ; 5.631 ; 5.645 ; Rise       ; clock_in        ;
+;  output[3] ; clock_in   ; 5.616 ; 5.643 ; Rise       ; clock_in        ;
+;  output[4] ; clock_in   ; 5.338 ; 5.354 ; Rise       ; clock_in        ;
+;  output[5] ; clock_in   ; 5.341 ; 5.358 ; Rise       ; clock_in        ;
+;  output[6] ; clock_in   ; 5.594 ; 5.621 ; Rise       ; clock_in        ;
+;  output[7] ; clock_in   ; 6.779 ; 6.908 ; Rise       ; clock_in        ;
+;  output[8] ; clock_in   ; 5.757 ; 5.760 ; Rise       ; clock_in        ;
+;  output[9] ; clock_in   ; 5.623 ; 5.654 ; Rise       ; clock_in        ;
 +------------+------------+-------+-------+------------+-----------------+
 
 
@@ -942,16 +942,16 @@ No paths to report.
 ; Data Port  ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +------------+------------+-------+-------+------------+-----------------+
 ; output[*]  ; clock_in   ; 5.237 ; 5.251 ; Rise       ; clock_in        ;
-;  output[0] ; clock_in   ; 5.505 ; 5.522 ; Rise       ; clock_in        ;
-;  output[1] ; clock_in   ; 5.510 ; 5.533 ; Rise       ; clock_in        ;
-;  output[2] ; clock_in   ; 5.657 ; 5.647 ; Rise       ; clock_in        ;
-;  output[3] ; clock_in   ; 5.488 ; 5.503 ; Rise       ; clock_in        ;
-;  output[4] ; clock_in   ; 5.240 ; 5.256 ; Rise       ; clock_in        ;
-;  output[5] ; clock_in   ; 5.237 ; 5.251 ; Rise       ; clock_in        ;
-;  output[6] ; clock_in   ; 5.481 ; 5.507 ; Rise       ; clock_in        ;
-;  output[7] ; clock_in   ; 6.673 ; 6.806 ; Rise       ; clock_in        ;
-;  output[8] ; clock_in   ; 5.475 ; 5.501 ; Rise       ; clock_in        ;
-;  output[9] ; clock_in   ; 5.476 ; 5.495 ; Rise       ; clock_in        ;
+;  output[0] ; clock_in   ; 5.634 ; 5.624 ; Rise       ; clock_in        ;
+;  output[1] ; clock_in   ; 5.519 ; 5.544 ; Rise       ; clock_in        ;
+;  output[2] ; clock_in   ; 5.519 ; 5.532 ; Rise       ; clock_in        ;
+;  output[3] ; clock_in   ; 5.504 ; 5.530 ; Rise       ; clock_in        ;
+;  output[4] ; clock_in   ; 5.237 ; 5.251 ; Rise       ; clock_in        ;
+;  output[5] ; clock_in   ; 5.240 ; 5.256 ; Rise       ; clock_in        ;
+;  output[6] ; clock_in   ; 5.482 ; 5.507 ; Rise       ; clock_in        ;
+;  output[7] ; clock_in   ; 6.668 ; 6.796 ; Rise       ; clock_in        ;
+;  output[8] ; clock_in   ; 5.638 ; 5.641 ; Rise       ; clock_in        ;
+;  output[9] ; clock_in   ; 5.510 ; 5.539 ; Rise       ; clock_in        ;
 +------------+------------+-------+-------+------------+-----------------+
 
 
@@ -1329,17 +1329,17 @@ No paths to report.
 +------------+------------+-------+-------+------------+-----------------+
 ; Data Port  ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +------------+------------+-------+-------+------------+-----------------+
-; output[*]  ; clock_in   ; 4.365 ; 4.553 ; Rise       ; clock_in        ;
-;  output[0] ; clock_in   ; 3.584 ; 3.625 ; Rise       ; clock_in        ;
-;  output[1] ; clock_in   ; 3.594 ; 3.634 ; Rise       ; clock_in        ;
-;  output[2] ; clock_in   ; 3.659 ; 3.705 ; Rise       ; clock_in        ;
-;  output[3] ; clock_in   ; 3.566 ; 3.607 ; Rise       ; clock_in        ;
-;  output[4] ; clock_in   ; 3.398 ; 3.421 ; Rise       ; clock_in        ;
-;  output[5] ; clock_in   ; 3.396 ; 3.417 ; Rise       ; clock_in        ;
-;  output[6] ; clock_in   ; 3.566 ; 3.607 ; Rise       ; clock_in        ;
-;  output[7] ; clock_in   ; 4.365 ; 4.553 ; Rise       ; clock_in        ;
-;  output[8] ; clock_in   ; 3.556 ; 3.597 ; Rise       ; clock_in        ;
-;  output[9] ; clock_in   ; 3.558 ; 3.595 ; Rise       ; clock_in        ;
+; output[*]  ; clock_in   ; 4.366 ; 4.546 ; Rise       ; clock_in        ;
+;  output[0] ; clock_in   ; 3.654 ; 3.695 ; Rise       ; clock_in        ;
+;  output[1] ; clock_in   ; 3.602 ; 3.641 ; Rise       ; clock_in        ;
+;  output[2] ; clock_in   ; 3.593 ; 3.627 ; Rise       ; clock_in        ;
+;  output[3] ; clock_in   ; 3.578 ; 3.623 ; Rise       ; clock_in        ;
+;  output[4] ; clock_in   ; 3.396 ; 3.417 ; Rise       ; clock_in        ;
+;  output[5] ; clock_in   ; 3.398 ; 3.421 ; Rise       ; clock_in        ;
+;  output[6] ; clock_in   ; 3.559 ; 3.604 ; Rise       ; clock_in        ;
+;  output[7] ; clock_in   ; 4.366 ; 4.546 ; Rise       ; clock_in        ;
+;  output[8] ; clock_in   ; 3.634 ; 3.689 ; Rise       ; clock_in        ;
+;  output[9] ; clock_in   ; 3.579 ; 3.624 ; Rise       ; clock_in        ;
 +------------+------------+-------+-------+------------+-----------------+
 
 
@@ -1349,16 +1349,16 @@ No paths to report.
 ; Data Port  ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +------------+------------+-------+-------+------------+-----------------+
 ; output[*]  ; clock_in   ; 3.331 ; 3.351 ; Rise       ; clock_in        ;
-;  output[0] ; clock_in   ; 3.512 ; 3.551 ; Rise       ; clock_in        ;
-;  output[1] ; clock_in   ; 3.522 ; 3.560 ; Rise       ; clock_in        ;
-;  output[2] ; clock_in   ; 3.584 ; 3.628 ; Rise       ; clock_in        ;
-;  output[3] ; clock_in   ; 3.495 ; 3.533 ; Rise       ; clock_in        ;
-;  output[4] ; clock_in   ; 3.333 ; 3.354 ; Rise       ; clock_in        ;
-;  output[5] ; clock_in   ; 3.331 ; 3.351 ; Rise       ; clock_in        ;
-;  output[6] ; clock_in   ; 3.494 ; 3.532 ; Rise       ; clock_in        ;
-;  output[7] ; clock_in   ; 4.294 ; 4.479 ; Rise       ; clock_in        ;
-;  output[8] ; clock_in   ; 3.484 ; 3.522 ; Rise       ; clock_in        ;
-;  output[9] ; clock_in   ; 3.486 ; 3.521 ; Rise       ; clock_in        ;
+;  output[0] ; clock_in   ; 3.579 ; 3.618 ; Rise       ; clock_in        ;
+;  output[1] ; clock_in   ; 3.529 ; 3.566 ; Rise       ; clock_in        ;
+;  output[2] ; clock_in   ; 3.521 ; 3.552 ; Rise       ; clock_in        ;
+;  output[3] ; clock_in   ; 3.506 ; 3.549 ; Rise       ; clock_in        ;
+;  output[4] ; clock_in   ; 3.331 ; 3.351 ; Rise       ; clock_in        ;
+;  output[5] ; clock_in   ; 3.333 ; 3.354 ; Rise       ; clock_in        ;
+;  output[6] ; clock_in   ; 3.487 ; 3.529 ; Rise       ; clock_in        ;
+;  output[7] ; clock_in   ; 4.294 ; 4.472 ; Rise       ; clock_in        ;
+;  output[8] ; clock_in   ; 3.558 ; 3.611 ; Rise       ; clock_in        ;
+;  output[9] ; clock_in   ; 3.506 ; 3.549 ; Rise       ; clock_in        ;
 +------------+------------+-------+-------+------------+-----------------+
 
 
@@ -1385,17 +1385,17 @@ No synchronizer chains to report.
 +------------+------------+-------+-------+------------+-----------------+
 ; Data Port  ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +------------+------------+-------+-------+------------+-----------------+
-; output[*]  ; clock_in   ; 7.083 ; 7.248 ; Rise       ; clock_in        ;
-;  output[0] ; clock_in   ; 5.914 ; 5.963 ; Rise       ; clock_in        ;
-;  output[1] ; clock_in   ; 5.920 ; 5.976 ; Rise       ; clock_in        ;
-;  output[2] ; clock_in   ; 6.073 ; 6.093 ; Rise       ; clock_in        ;
-;  output[3] ; clock_in   ; 5.897 ; 5.925 ; Rise       ; clock_in        ;
-;  output[4] ; clock_in   ; 5.617 ; 5.653 ; Rise       ; clock_in        ;
-;  output[5] ; clock_in   ; 5.614 ; 5.648 ; Rise       ; clock_in        ;
-;  output[6] ; clock_in   ; 5.892 ; 5.951 ; Rise       ; clock_in        ;
-;  output[7] ; clock_in   ; 7.083 ; 7.248 ; Rise       ; clock_in        ;
-;  output[8] ; clock_in   ; 5.886 ; 5.948 ; Rise       ; clock_in        ;
-;  output[9] ; clock_in   ; 5.888 ; 5.942 ; Rise       ; clock_in        ;
+; output[*]  ; clock_in   ; 7.076 ; 7.238 ; Rise       ; clock_in        ;
+;  output[0] ; clock_in   ; 6.047 ; 6.083 ; Rise       ; clock_in        ;
+;  output[1] ; clock_in   ; 5.932 ; 5.989 ; Rise       ; clock_in        ;
+;  output[2] ; clock_in   ; 5.932 ; 5.958 ; Rise       ; clock_in        ;
+;  output[3] ; clock_in   ; 5.915 ; 5.958 ; Rise       ; clock_in        ;
+;  output[4] ; clock_in   ; 5.614 ; 5.648 ; Rise       ; clock_in        ;
+;  output[5] ; clock_in   ; 5.617 ; 5.653 ; Rise       ; clock_in        ;
+;  output[6] ; clock_in   ; 5.893 ; 5.953 ; Rise       ; clock_in        ;
+;  output[7] ; clock_in   ; 7.076 ; 7.238 ; Rise       ; clock_in        ;
+;  output[8] ; clock_in   ; 6.061 ; 6.085 ; Rise       ; clock_in        ;
+;  output[9] ; clock_in   ; 5.925 ; 5.989 ; Rise       ; clock_in        ;
 +------------+------------+-------+-------+------------+-----------------+
 
 
@@ -1405,16 +1405,16 @@ No synchronizer chains to report.
 ; Data Port  ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +------------+------------+-------+-------+------------+-----------------+
 ; output[*]  ; clock_in   ; 3.331 ; 3.351 ; Rise       ; clock_in        ;
-;  output[0] ; clock_in   ; 3.512 ; 3.551 ; Rise       ; clock_in        ;
-;  output[1] ; clock_in   ; 3.522 ; 3.560 ; Rise       ; clock_in        ;
-;  output[2] ; clock_in   ; 3.584 ; 3.628 ; Rise       ; clock_in        ;
-;  output[3] ; clock_in   ; 3.495 ; 3.533 ; Rise       ; clock_in        ;
-;  output[4] ; clock_in   ; 3.333 ; 3.354 ; Rise       ; clock_in        ;
-;  output[5] ; clock_in   ; 3.331 ; 3.351 ; Rise       ; clock_in        ;
-;  output[6] ; clock_in   ; 3.494 ; 3.532 ; Rise       ; clock_in        ;
-;  output[7] ; clock_in   ; 4.294 ; 4.479 ; Rise       ; clock_in        ;
-;  output[8] ; clock_in   ; 3.484 ; 3.522 ; Rise       ; clock_in        ;
-;  output[9] ; clock_in   ; 3.486 ; 3.521 ; Rise       ; clock_in        ;
+;  output[0] ; clock_in   ; 3.579 ; 3.618 ; Rise       ; clock_in        ;
+;  output[1] ; clock_in   ; 3.529 ; 3.566 ; Rise       ; clock_in        ;
+;  output[2] ; clock_in   ; 3.521 ; 3.552 ; Rise       ; clock_in        ;
+;  output[3] ; clock_in   ; 3.506 ; 3.549 ; Rise       ; clock_in        ;
+;  output[4] ; clock_in   ; 3.331 ; 3.351 ; Rise       ; clock_in        ;
+;  output[5] ; clock_in   ; 3.333 ; 3.354 ; Rise       ; clock_in        ;
+;  output[6] ; clock_in   ; 3.487 ; 3.529 ; Rise       ; clock_in        ;
+;  output[7] ; clock_in   ; 4.294 ; 4.472 ; Rise       ; clock_in        ;
+;  output[8] ; clock_in   ; 3.558 ; 3.611 ; Rise       ; clock_in        ;
+;  output[9] ; clock_in   ; 3.506 ; 3.549 ; Rise       ; clock_in        ;
 +------------+------------+-------+-------+------------+-----------------+
 
 
@@ -1542,7 +1542,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Tue Feb 17 16:04:43 2015
+    Info: Processing started: Wed Mar 25 16:56:58 2015
 Info: Command: quartus_sta blinkenlights -c blinkenlights
 Info: qsta_default_script.tcl version: #1
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
@@ -1614,9 +1614,9 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 483 megabytes
-    Info: Processing ended: Tue Feb 17 16:05:21 2015
-    Info: Elapsed time: 00:00:38
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 461 megabytes
+    Info: Processing ended: Wed Mar 25 16:57:02 2015
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:02
 
 

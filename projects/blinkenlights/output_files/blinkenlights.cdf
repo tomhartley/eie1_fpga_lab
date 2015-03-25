@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP3C16F484) Path("H:/FPGA/output_files/") File("blinkenlights.sof") MfrSpec(OpMask(1));
+		Device PartName(EP3C16F484) Path("H:/FPGA/eie1_fpga_lab/projects/blinkenlights/output_files/") File("blinkenlights.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

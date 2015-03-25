@@ -42,16 +42,16 @@ USE lpm.all;
 ENTITY lpm_clshift0 IS
 	PORT
 	(
-		data		: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+		data		: IN STD_LOGIC_VECTOR (4 DOWNTO 0);
 		distance		: IN STD_LOGIC ;
-		result		: OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
+		result		: OUT STD_LOGIC_VECTOR (4 DOWNTO 0)
 	);
 END lpm_clshift0;
 
 
 ARCHITECTURE SYN OF lpm_clshift0 IS
 
-	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (7 DOWNTO 0);
+	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (4 DOWNTO 0);
 	SIGNAL sub_wire1	: STD_LOGIC ;
 
 
@@ -64,22 +64,22 @@ ARCHITECTURE SYN OF lpm_clshift0 IS
 		lpm_widthdist		: NATURAL
 	);
 	PORT (
-			data	: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+			data	: IN STD_LOGIC_VECTOR (4 DOWNTO 0);
 			direction	: IN STD_LOGIC ;
 			distance	: IN STD_LOGIC ;
-			result	: OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
+			result	: OUT STD_LOGIC_VECTOR (4 DOWNTO 0)
 	);
 	END COMPONENT;
 
 BEGIN
 	sub_wire1    <= '0';
-	result    <= sub_wire0(7 DOWNTO 0);
+	result    <= sub_wire0(4 DOWNTO 0);
 
 	LPM_CLSHIFT_component : LPM_CLSHIFT
 	GENERIC MAP (
 		lpm_shifttype => "LOGICAL",
 		lpm_type => "LPM_CLSHIFT",
-		lpm_width => 8,
+		lpm_width => 5,
 		lpm_widthdist => 1
 	)
 	PORT MAP (
@@ -98,7 +98,7 @@ END SYN;
 -- ============================================================
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
 -- Retrieval info: PRIVATE: LPM_SHIFTTYPE NUMERIC "0"
--- Retrieval info: PRIVATE: LPM_WIDTH NUMERIC "8"
+-- Retrieval info: PRIVATE: LPM_WIDTH NUMERIC "5"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: lpm_widthdist NUMERIC "1"
 -- Retrieval info: PRIVATE: lpm_widthdist_style NUMERIC "1"
@@ -107,17 +107,17 @@ END SYN;
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: CONSTANT: LPM_SHIFTTYPE STRING "LOGICAL"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_CLSHIFT"
--- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "8"
+-- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "5"
 -- Retrieval info: CONSTANT: LPM_WIDTHDIST NUMERIC "1"
--- Retrieval info: USED_PORT: data 0 0 8 0 INPUT NODEFVAL "data[7..0]"
+-- Retrieval info: USED_PORT: data 0 0 5 0 INPUT NODEFVAL "data[4..0]"
 -- Retrieval info: USED_PORT: distance 0 0 0 0 INPUT NODEFVAL "distance"
--- Retrieval info: USED_PORT: result 0 0 8 0 OUTPUT NODEFVAL "result[7..0]"
--- Retrieval info: CONNECT: @data 0 0 8 0 data 0 0 8 0
+-- Retrieval info: USED_PORT: result 0 0 5 0 OUTPUT NODEFVAL "result[4..0]"
+-- Retrieval info: CONNECT: @data 0 0 5 0 data 0 0 5 0
 -- Retrieval info: CONNECT: @direction 0 0 0 0 GND 0 0 0 0
 -- Retrieval info: CONNECT: @distance 0 0 0 0 distance 0 0 0 0
--- Retrieval info: CONNECT: result 0 0 8 0 @result 0 0 8 0
+-- Retrieval info: CONNECT: result 0 0 5 0 @result 0 0 5 0
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_clshift0.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_clshift0.inc FALSE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_clshift0.cmp TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_clshift0.bsf TRUE FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_clshift0.bsf TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_clshift0_inst.vhd FALSE

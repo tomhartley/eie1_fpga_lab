@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for multiplier
-Tue Feb 24 14:44:35 2015
+Wed Mar 25 17:10:51 2015
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -264,8 +264,8 @@ No paths to report.
 ; -0.661 ; multiplier:inst3|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[7]  ; multiplier:inst4|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[9] ; Button2      ; Button2     ; 1.000        ; 0.114      ; 1.790      ;
 ; -0.661 ; multiplier:inst3|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[5]  ; multiplier:inst4|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[9] ; Button2      ; Button2     ; 1.000        ; 0.114      ; 1.790      ;
 ; -0.660 ; multiplier:inst2|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[2] ; multiplier:inst3|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[5] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.634      ;
-; -0.659 ; multiplier:inst|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[2]  ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[5] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.633      ;
 ; -0.659 ; multiplier:inst1|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[2] ; multiplier:inst2|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[5] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.633      ;
+; -0.659 ; multiplier:inst|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[2]  ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[5] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.633      ;
 ; -0.658 ; multiplier:inst2|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[1] ; multiplier:inst3|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.632      ;
 ; -0.658 ; multiplier:inst2|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[4] ; multiplier:inst3|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[8] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.632      ;
 ; -0.658 ; multiplier:inst1|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[1] ; multiplier:inst2|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.632      ;
@@ -274,14 +274,14 @@ No paths to report.
 ; -0.655 ; multiplier:inst|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[2]   ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[5] ; Button2      ; Button2     ; 1.000        ; -0.103     ; 1.567      ;
 ; -0.654 ; multiplier:inst2|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[2] ; multiplier:inst3|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.628      ;
 ; -0.654 ; multiplier:inst|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[1]   ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[5] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.628      ;
-; -0.653 ; multiplier:inst|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[2]  ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.627      ;
 ; -0.653 ; multiplier:inst1|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[2] ; multiplier:inst2|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.627      ;
+; -0.653 ; multiplier:inst|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[2]  ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.627      ;
 ; -0.652 ; multiplier:inst3|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[4] ; multiplier:inst4|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[5] ; Button2      ; Button2     ; 1.000        ; -0.042     ; 1.625      ;
 ; -0.652 ; multiplier:inst2|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[2]  ; multiplier:inst3|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[5] ; Button2      ; Button2     ; 1.000        ; -0.081     ; 1.586      ;
 ; -0.651 ; multiplier:inst3|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[3]  ; multiplier:inst4|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[8] ; Button2      ; Button2     ; 1.000        ; 0.114      ; 1.780      ;
 ; -0.648 ; multiplier:inst3|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[0]  ; multiplier:inst4|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.042     ; 1.621      ;
-; -0.648 ; multiplier:inst|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[1]   ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.622      ;
 ; -0.648 ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[0]  ; multiplier:inst2|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.622      ;
+; -0.648 ; multiplier:inst|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[1]   ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.622      ;
 ; -0.646 ; multiplier:inst3|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[4] ; multiplier:inst4|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.042     ; 1.619      ;
 ; -0.645 ; multiplier:inst2|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[0]  ; multiplier:inst3|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.619      ;
 ; -0.645 ; multiplier:inst|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[0]   ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[6] ; Button2      ; Button2     ; 1.000        ; -0.041     ; 1.619      ;
@@ -328,8 +328,8 @@ No paths to report.
 ; 0.545 ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[0]  ; multiplier:inst2|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[1]  ; Button2      ; Button2     ; 0.000        ; 0.041      ; 0.743      ;
 ; 0.545 ; multiplier:inst|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[0]   ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[1]  ; Button2      ; Button2     ; 0.000        ; 0.041      ; 0.743      ;
 ; 0.545 ; multiplier:inst|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[1]   ; multiplier:inst1|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[2]  ; Button2      ; Button2     ; 0.000        ; 0.041      ; 0.743      ;
-; 0.546 ; multiplier:inst1|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[0] ; multiplier:inst2|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[0] ; Button2      ; Button2     ; 0.000        ; 0.064      ; 0.767      ;
 ; 0.546 ; multiplier:inst3|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[0]  ; multiplier:inst4|lpm_clshift3:inst9|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_eid:auto_generated|pipe_wl1c[1]  ; Button2      ; Button2     ; 0.000        ; 0.042      ; 0.745      ;
+; 0.546 ; multiplier:inst1|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[0] ; multiplier:inst2|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[0] ; Button2      ; Button2     ; 0.000        ; 0.064      ; 0.767      ;
 ; 0.549 ; multiplier:inst|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[2]  ; multiplier:inst1|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[2] ; Button2      ; Button2     ; 0.000        ; 0.045      ; 0.751      ;
 ; 0.553 ; multiplier:inst1|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[1] ; multiplier:inst2|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[1] ; Button2      ; Button2     ; 0.000        ; 0.064      ; 0.774      ;
 ; 0.554 ; multiplier:inst|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[3]  ; multiplier:inst1|lpm_clshift2:inst13|lpm_clshift:LPM_CLSHIFT_component|lpm_clshift_2hd:auto_generated|pipe_wl1c[3] ; Button2      ; Button2     ; 0.000        ; 0.045      ; 0.756      ;
@@ -1720,7 +1720,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Tue Feb 24 14:44:30 2015
+    Info: Processing started: Wed Mar 25 17:10:45 2015
 Info: Command: quartus_sta multiplier -c multiplier
 Info: qsta_default_script.tcl version: #1
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
@@ -1793,8 +1793,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 472 megabytes
-    Info: Processing ended: Tue Feb 24 14:44:35 2015
-    Info: Elapsed time: 00:00:05
+    Info: Processing ended: Wed Mar 25 17:10:51 2015
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:03
 
 

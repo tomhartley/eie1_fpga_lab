@@ -1,5 +1,5 @@
 Fitter report for blinkenlights
-Tue Feb 17 16:04:27 2015
+Wed Mar 25 16:56:52 2015
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -66,7 +66,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                        ;
 +------------------------------------+--------------------------------------------------+
-; Fitter Status                      ; Successful - Tue Feb 17 16:04:27 2015            ;
+; Fitter Status                      ; Successful - Wed Mar 25 16:56:52 2015            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; blinkenlights                                    ;
 ; Top-level Entity Name              ; blinkenlights                                    ;
@@ -154,12 +154,12 @@ applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.04        ;
+; Average used               ; 1.00        ;
 ; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   4.0%      ;
+;     Processor 2            ; < 0.1%      ;
 ;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -220,7 +220,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in H:/FPGA/output_files/blinkenlights.pin.
+The pin-out file can be found in H:/FPGA/eie1_fpga_lab/projects/blinkenlights/output_files/blinkenlights.pin.
 
 
 +---------------------------------------------------------------------+
@@ -967,16 +967,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------------------------------------------------------------+---------+
 ; Name                                                                                                  ; Fan-Out ;
 +-------------------------------------------------------------------------------------------------------+---------+
-; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[20]      ; 2       ;
-; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[21]      ; 2       ;
-; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[22]      ; 2       ;
-; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[23]      ; 2       ;
-; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[24]      ; 2       ;
-; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[25]      ; 2       ;
-; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[26]      ; 2       ;
-; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[27]      ; 2       ;
-; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[28]      ; 2       ;
 ; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[29]      ; 2       ;
+; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[28]      ; 2       ;
+; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[27]      ; 2       ;
+; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[26]      ; 2       ;
+; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[25]      ; 2       ;
+; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[24]      ; 2       ;
+; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[23]      ; 2       ;
+; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[22]      ; 2       ;
+; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[21]      ; 2       ;
+; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[20]      ; 2       ;
 ; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[0]       ; 1       ;
 ; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[1]       ; 1       ;
 ; lpm_counter0:inst3|lpm_counter:LPM_COUNTER_component|cntr_gph:auto_generated|counter_reg_bit[2]       ; 1       ;
@@ -1071,7 +1071,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Global clocks               ; 1 / 20 ( 5 % )        ;
 ; Local interconnects         ; 30 / 15,408 ( < 1 % ) ;
 ; R24 interconnects           ; 0 / 1,775 ( 0 % )     ;
-; R4 interconnects            ; 1 / 41,310 ( < 1 % )  ;
+; R4 interconnects            ; 2 / 41,310 ( < 1 % )  ;
 +-----------------------------+-----------------------+
 
 
@@ -1319,35 +1319,35 @@ Info (332130): Timing requirements not specified -- quality metrics such as perf
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:08
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X0_Y20 to location X9_Y29
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.22 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.20 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:03
-Info (144001): Generated suppressed messages file H:/FPGA/output_files/blinkenlights.fit.smsg
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (144001): Generated suppressed messages file H:/FPGA/eie1_fpga_lab/projects/blinkenlights/output_files/blinkenlights.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 902 megabytes
-    Info: Processing ended: Tue Feb 17 16:04:30 2015
-    Info: Elapsed time: 00:00:34
-    Info: Total CPU time (on all processors): 00:00:09
+    Info: Peak virtual memory: 914 megabytes
+    Info: Processing ended: Wed Mar 25 16:56:53 2015
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:08
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in H:/FPGA/output_files/blinkenlights.fit.smsg.
+The suppressed messages can be found in H:/FPGA/eie1_fpga_lab/projects/blinkenlights/output_files/blinkenlights.fit.smsg.
 
 

@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 464 288 632 304)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "input[9..0]" (rect 5 0 55 12)(font "Arial" ))
+	(text "input[9..0]" (rect 5 0 54 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -34,6 +34,7 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 416 304 464 320))
 )
 (pin
 	(output)
@@ -50,9 +51,11 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 968 304 1016 320))
 )
 (connector
 	(pt 632 296)
 	(pt 792 296)
 	(bus)
 )
+(text "Connect LEDs to the swiches" (rect 536 328 704 342)(font "Arial" (font_size 8)))
