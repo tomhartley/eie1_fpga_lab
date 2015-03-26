@@ -1,0 +1,185 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clock'
+Slack : -3.590
+TNS   : -91.536
+
+Type  : Slow 1200mV 85C Model Setup 'clkBCDcount:inst1|lpm_compare1:inst1|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.971
+TNS   : -7.884
+
+Type  : Slow 1200mV 85C Model Setup 'clkBCDcount:inst1|lpm_compare1:inst3|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.957
+TNS   : -7.828
+
+Type  : Slow 1200mV 85C Model Setup 'clkBCDcount:inst1|lpm_compare1:inst5|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.846
+TNS   : -7.384
+
+Type  : Slow 1200mV 85C Model Setup 'clkBCDcount:inst1|inst9'
+Slack : -1.836
+TNS   : -8.693
+
+Type  : Slow 1200mV 85C Model Hold 'clock'
+Slack : 0.369
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkBCDcount:inst1|inst9'
+Slack : 0.448
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkBCDcount:inst1|lpm_compare1:inst3|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : 0.605
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkBCDcount:inst1|lpm_compare1:inst1|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : 0.606
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkBCDcount:inst1|lpm_compare1:inst5|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : 0.620
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -58.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkBCDcount:inst1|inst9'
+Slack : -1.000
+TNS   : -9.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkBCDcount:inst1|lpm_compare1:inst1|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkBCDcount:inst1|lpm_compare1:inst3|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkBCDcount:inst1|lpm_compare1:inst5|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Setup 'clock'
+Slack : -3.060
+TNS   : -73.519
+
+Type  : Slow 1200mV 0C Model Setup 'clkBCDcount:inst1|lpm_compare1:inst1|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.652
+TNS   : -6.608
+
+Type  : Slow 1200mV 0C Model Setup 'clkBCDcount:inst1|lpm_compare1:inst3|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.639
+TNS   : -6.556
+
+Type  : Slow 1200mV 0C Model Setup 'clkBCDcount:inst1|lpm_compare1:inst5|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.538
+TNS   : -6.152
+
+Type  : Slow 1200mV 0C Model Setup 'clkBCDcount:inst1|inst9'
+Slack : -1.532
+TNS   : -6.778
+
+Type  : Slow 1200mV 0C Model Hold 'clock'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkBCDcount:inst1|inst9'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkBCDcount:inst1|lpm_compare1:inst1|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : 0.544
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkBCDcount:inst1|lpm_compare1:inst3|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : 0.544
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkBCDcount:inst1|lpm_compare1:inst5|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : 0.550
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -58.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkBCDcount:inst1|inst9'
+Slack : -1.000
+TNS   : -9.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkBCDcount:inst1|lpm_compare1:inst1|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkBCDcount:inst1|lpm_compare1:inst3|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkBCDcount:inst1|lpm_compare1:inst5|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Setup 'clock'
+Slack : -1.607
+TNS   : -36.355
+
+Type  : Fast 1200mV 0C Model Setup 'clkBCDcount:inst1|lpm_compare1:inst1|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -0.641
+TNS   : -2.564
+
+Type  : Fast 1200mV 0C Model Setup 'clkBCDcount:inst1|lpm_compare1:inst3|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -0.634
+TNS   : -2.536
+
+Type  : Fast 1200mV 0C Model Setup 'clkBCDcount:inst1|lpm_compare1:inst5|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -0.575
+TNS   : -2.300
+
+Type  : Fast 1200mV 0C Model Setup 'clkBCDcount:inst1|inst9'
+Slack : -0.570
+TNS   : -2.280
+
+Type  : Fast 1200mV 0C Model Hold 'clock'
+Slack : 0.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clkBCDcount:inst1|inst9'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clkBCDcount:inst1|lpm_compare1:inst3|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : 0.326
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clkBCDcount:inst1|lpm_compare1:inst1|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clkBCDcount:inst1|lpm_compare1:inst5|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : 0.334
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -61.368
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkBCDcount:inst1|inst9'
+Slack : -1.000
+TNS   : -9.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkBCDcount:inst1|lpm_compare1:inst1|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkBCDcount:inst1|lpm_compare1:inst3|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkBCDcount:inst1|lpm_compare1:inst5|lpm_compare:LPM_COMPARE_component|cmpr_lnk:auto_generated|aeb_output_dffe0a[0]'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------
