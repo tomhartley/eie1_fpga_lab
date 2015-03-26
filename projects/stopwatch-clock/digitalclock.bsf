@@ -38,20 +38,6 @@ applicable agreement for further details.
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
-		(pt 0 64)
-		(input)
-		(text "start" (rect 0 0 25 14)(font "Arial" (font_size 8)))
-		(text "start" (rect 21 59 46 73)(font "Arial" (font_size 8)))
-		(line (pt 0 64)(pt 16 64))
-	)
-	(port
-		(pt 0 80)
-		(input)
-		(text "reset" (rect 0 0 29 14)(font "Arial" (font_size 8)))
-		(text "reset" (rect 21 75 50 89)(font "Arial" (font_size 8)))
-		(line (pt 0 80)(pt 16 80))
-	)
-	(port
 		(pt 144 32)
 		(output)
 		(text "7Seg0[6..0]" (rect 0 0 64 14)(font "Arial" (font_size 8)))

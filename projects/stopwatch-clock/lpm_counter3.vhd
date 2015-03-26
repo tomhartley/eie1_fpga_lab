@@ -44,7 +44,6 @@ ENTITY lpm_counter3 IS
 	(
 		aclr		: IN STD_LOGIC ;
 		clock		: IN STD_LOGIC ;
-		cout		: OUT STD_LOGIC ;
 		q		: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
 	);
 END lpm_counter3;
@@ -52,8 +51,7 @@ END lpm_counter3;
 
 ARCHITECTURE SYN OF lpm_counter3 IS
 
-	SIGNAL sub_wire0	: STD_LOGIC ;
-	SIGNAL sub_wire1	: STD_LOGIC_VECTOR (3 DOWNTO 0);
+	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (3 DOWNTO 0);
 
 
 
@@ -68,14 +66,12 @@ ARCHITECTURE SYN OF lpm_counter3 IS
 	PORT (
 			aclr	: IN STD_LOGIC ;
 			clock	: IN STD_LOGIC ;
-			cout	: OUT STD_LOGIC ;
 			q	: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
 	);
 	END COMPONENT;
 
 BEGIN
-	cout    <= sub_wire0;
-	q    <= sub_wire1(3 DOWNTO 0);
+	q    <= sub_wire0(3 DOWNTO 0);
 
 	LPM_COUNTER_component : LPM_COUNTER
 	GENERIC MAP (
@@ -88,8 +84,7 @@ BEGIN
 	PORT MAP (
 		aclr => aclr,
 		clock => clock,
-		cout => sub_wire0,
-		q => sub_wire1
+		q => sub_wire0
 	);
 
 
@@ -106,7 +101,7 @@ END SYN;
 -- Retrieval info: PRIVATE: CLK_EN NUMERIC "0"
 -- Retrieval info: PRIVATE: CNT_EN NUMERIC "0"
 -- Retrieval info: PRIVATE: CarryIn NUMERIC "0"
--- Retrieval info: PRIVATE: CarryOut NUMERIC "1"
+-- Retrieval info: PRIVATE: CarryOut NUMERIC "0"
 -- Retrieval info: PRIVATE: Direction NUMERIC "0"
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
 -- Retrieval info: PRIVATE: ModulusCounter NUMERIC "1"
@@ -126,11 +121,9 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "4"
 -- Retrieval info: USED_PORT: aclr 0 0 0 0 INPUT NODEFVAL "aclr"
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL "clock"
--- Retrieval info: USED_PORT: cout 0 0 0 0 OUTPUT NODEFVAL "cout"
 -- Retrieval info: USED_PORT: q 0 0 4 0 OUTPUT NODEFVAL "q[3..0]"
 -- Retrieval info: CONNECT: @aclr 0 0 0 0 aclr 0 0 0 0
 -- Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
--- Retrieval info: CONNECT: cout 0 0 0 0 @cout 0 0 0 0
 -- Retrieval info: CONNECT: q 0 0 4 0 @q 0 0 4 0
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter3.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter3.inc FALSE

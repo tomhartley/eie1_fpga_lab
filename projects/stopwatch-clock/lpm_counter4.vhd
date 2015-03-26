@@ -42,8 +42,8 @@ USE lpm.all;
 ENTITY lpm_counter4 IS
 	PORT
 	(
+		aclr		: IN STD_LOGIC ;
 		clock		: IN STD_LOGIC ;
-		sclr		: IN STD_LOGIC ;
 		q		: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
 	);
 END lpm_counter4;
@@ -64,9 +64,9 @@ ARCHITECTURE SYN OF lpm_counter4 IS
 		lpm_width		: NATURAL
 	);
 	PORT (
+			aclr	: IN STD_LOGIC ;
 			clock	: IN STD_LOGIC ;
-			q	: OUT STD_LOGIC_VECTOR (3 DOWNTO 0);
-			sclr	: IN STD_LOGIC 
+			q	: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
 	);
 	END COMPONENT;
 
@@ -82,8 +82,8 @@ BEGIN
 		lpm_width => 4
 	)
 	PORT MAP (
+		aclr => aclr,
 		clock => clock,
-		sclr => sclr,
 		q => sub_wire0
 	);
 
@@ -94,7 +94,7 @@ END SYN;
 -- ============================================================
 -- CNX file retrieval info
 -- ============================================================
--- Retrieval info: PRIVATE: ACLR NUMERIC "0"
+-- Retrieval info: PRIVATE: ACLR NUMERIC "1"
 -- Retrieval info: PRIVATE: ALOAD NUMERIC "0"
 -- Retrieval info: PRIVATE: ASET NUMERIC "0"
 -- Retrieval info: PRIVATE: ASET_ALL1 NUMERIC "1"
@@ -106,7 +106,7 @@ END SYN;
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
 -- Retrieval info: PRIVATE: ModulusCounter NUMERIC "1"
 -- Retrieval info: PRIVATE: ModulusValue NUMERIC "6"
--- Retrieval info: PRIVATE: SCLR NUMERIC "1"
+-- Retrieval info: PRIVATE: SCLR NUMERIC "0"
 -- Retrieval info: PRIVATE: SLOAD NUMERIC "0"
 -- Retrieval info: PRIVATE: SSET NUMERIC "0"
 -- Retrieval info: PRIVATE: SSET_ALL1 NUMERIC "1"
@@ -119,11 +119,11 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_PORT_UPDOWN STRING "PORT_UNUSED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COUNTER"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "4"
+-- Retrieval info: USED_PORT: aclr 0 0 0 0 INPUT NODEFVAL "aclr"
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL "clock"
 -- Retrieval info: USED_PORT: q 0 0 4 0 OUTPUT NODEFVAL "q[3..0]"
--- Retrieval info: USED_PORT: sclr 0 0 0 0 INPUT NODEFVAL "sclr"
+-- Retrieval info: CONNECT: @aclr 0 0 0 0 aclr 0 0 0 0
 -- Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
--- Retrieval info: CONNECT: @sclr 0 0 0 0 sclr 0 0 0 0
 -- Retrieval info: CONNECT: q 0 0 4 0 @q 0 0 4 0
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter4.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter4.inc FALSE

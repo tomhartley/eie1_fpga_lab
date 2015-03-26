@@ -38,18 +38,11 @@ applicable agreement for further details.
 		(line (pt 80 80)(pt 80 64))
 	)
 	(port
-		(pt 144 48)
-		(output)
-		(text "cout" (rect 0 0 24 14)(font "Arial" (font_size 8)))
-		(text "cout" (rect 104 41 123 54)(font "Arial" (font_size 8)))
-		(line (pt 144 48)(pt 128 48))
-	)
-	(port
-		(pt 144 32)
+		(pt 144 40)
 		(output)
 		(text "q[3..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
-		(text "q[3..0]" (rect 95 25 123 38)(font "Arial" (font_size 8)))
-		(line (pt 144 32)(pt 128 32)(line_width 3))
+		(text "q[3..0]" (rect 95 33 123 46)(font "Arial" (font_size 8)))
+		(line (pt 144 40)(pt 128 40)(line_width 3))
 	)
 	(drawing
 		(text "modulus 10" (rect 80 30 206 71)(font "Arial" ))

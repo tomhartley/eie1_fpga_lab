@@ -39,7 +39,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -128 440 48 456)
+	(rect 8 264 184 280)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "clock" (rect 9 0 34 12)(font "Arial" ))
 	(pt 176 8)
@@ -482,7 +482,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 384 240 496 336)
+	(rect 336 248 448 344)
 	(text "digtalclkdivide" (rect 5 0 82 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
@@ -551,36 +551,6 @@ applicable agreement for further details.
 	)
 	(drawing
 		(rectangle (rect 16 16 152 112))
-	)
-)
-(symbol
-	(rect 88 400 248 464)
-	(text "altclkctrl0" (rect 4 -16 70 0)(font "Arial" (font_size 10)))
-	(text "inst6" (rect 8 48 31 60)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "inclk" (rect 0 0 24 14)(font "Arial" (font_size 8)))
-		(text "inclk" (rect 4 18 28 32)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 72 32))
-	)
-	(port
-		(pt 160 32)
-		(output)
-		(text "outclk" (rect 0 0 33 14)(font "Arial" (font_size 8)))
-		(text "outclk" (rect 129 18 162 32)(font "Arial" (font_size 8)))
-		(line (pt 160 32)(pt 91 32))
-	)
-	(drawing
-		(text "clk" (rect 74 26 88 38)(font "Arial" ))
-		(text "Global Clock" (rect 104 49 166 61)(font "Arial" ))
-		(line (pt 72 17)(pt 72 47))
-		(line (pt 72 17)(pt 92 33))
-		(line (pt 72 47)(pt 92 31))
-		(line (pt 0 0)(pt 162 0))
-		(line (pt 162 0)(pt 162 66))
-		(line (pt 0 66)(pt 162 66))
-		(line (pt 0 0)(pt 0 66))
 	)
 )
 (connector
@@ -815,10 +785,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 496 272)
-	(pt 504 272)
-)
-(connector
 	(pt 816 568)
 	(pt 816 328)
 	(bus)
@@ -868,36 +834,6 @@ applicable agreement for further details.
 	(pt 1280 152)
 )
 (connector
-	(text "global_clk" (rect 274 416 322 428)(font "Arial" ))
-	(pt 376 432)
-	(pt 248 432)
-)
-(connector
-	(pt 48 432)
-	(pt 88 432)
-)
-(connector
-	(pt 48 448)
-	(pt 48 432)
-)
-(connector
-	(text "global_clk" (rect 338 256 386 268)(font "Arial" ))
-	(pt 328 272)
-	(pt 384 272)
-)
-(connector
-	(pt 328 272)
-	(pt 328 280)
-)
-(connector
-	(pt 504 280)
-	(pt 504 272)
-)
-(connector
-	(pt 504 280)
-	(pt 616 280)
-)
-(connector
 	(text "global_clk" (rect 546 280 594 292)(font "Arial" ))
 	(pt 616 296)
 	(pt 536 296)
@@ -905,6 +841,20 @@ applicable agreement for further details.
 (connector
 	(pt 536 296)
 	(pt 536 328)
+)
+(connector
+	(text "global_clk" (rect 194 256 242 268)(font "Arial" ))
+	(pt 248 272)
+	(pt 184 272)
+)
+(connector
+	(text "global_clk" (rect 290 264 338 276)(font "Arial" ))
+	(pt 280 280)
+	(pt 336 280)
+)
+(connector
+	(pt 448 280)
+	(pt 616 280)
 )
 (junction (pt 1192 280))
 (junction (pt 1216 312))
@@ -916,13 +866,13 @@ applicable agreement for further details.
 (junction (pt 1240 520))
 (junction (pt 1216 672))
 (text "Global Clock Generator" (rect 16 224 253 246)(font "Arial" (font_size 14)))
-(text "State Machine" (rect 264 560 406 582)(font "Arial" (font_size 14)))
+(text "State Machine" (rect 16 176 158 198)(font "Arial" (font_size 14)))
 (text "BCD Counter" (rect 600 400 738 422)(font "Arial" (font_size 14)))
 (text "BCD->7 Segment Decoders" (rect 856 648 1145 670)(font "Arial" (font_size 14)))
 (text "Shift registers for split functionality" (rect 1160 848 1499 870)(font "Arial" (font_size 14)))
 (text "Registers only update when split button is not held" (rect 1160 880 1446 894)(font "Arial" (font_size 8)))
 (text "clken is active low" (rect 1160 896 1265 910)(font "Arial" (font_size 8)))
-(rectangle (rect 272 232 512 344))
+(rectangle (rect 272 240 512 352))
 (rectangle (rect 600 232 784 392))
 (rectangle (rect 856 192 1128 640))
 (rectangle (rect 1160 40 1464 840))
