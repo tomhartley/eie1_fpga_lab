@@ -89,7 +89,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 800 184 928 280)
+	(rect 792 184 920 280)
 	(text "lpm_compare0" (rect 22 0 122 16)(font "Arial" (font_size 10)))
 	(text "inst1" (rect 8 80 31 92)(font "Arial" ))
 	(port
@@ -128,31 +128,31 @@ applicable agreement for further details.
 	(pt 624 216)
 )
 (connector
-	(pt 776 240)
-	(pt 776 232)
-	(bus)
-)
-(connector
 	(pt 768 240)
 	(pt 776 240)
 	(bus)
-)
-(connector
-	(pt 776 232)
-	(pt 800 232)
-	(bus)
-)
-(connector
-	(pt 984 248)
-	(pt 984 240)
 )
 (connector
 	(pt 992 248)
 	(pt 984 248)
 )
 (connector
+	(pt 776 240)
+	(pt 776 232)
+	(bus)
+)
+(connector
+	(pt 776 232)
+	(pt 792 232)
+	(bus)
+)
+(connector
+	(pt 984 248)
 	(pt 984 240)
-	(pt 928 240)
+)
+(connector
+	(pt 920 240)
+	(pt 984 240)
 )
 (text "Counter mod 500000 as 50000000 * 0.01s = 500000" (rect 624 304 920 318)(font "Arial" (font_size 8)))
 (text "When counter <50 output high [to make one wide pulse per 10 ms]" (rect 624 328 1000 342)(font "Arial" (font_size 8)))

@@ -42,6 +42,7 @@ USE lpm.all;
 ENTITY lpm_compare2 IS
 	PORT
 	(
+		clock		: IN STD_LOGIC ;
 		dataa		: IN STD_LOGIC_VECTOR (25 DOWNTO 0);
 		alb		: OUT STD_LOGIC 
 	);
@@ -59,30 +60,34 @@ ARCHITECTURE SYN OF lpm_compare2 IS
 	COMPONENT lpm_compare
 	GENERIC (
 		lpm_hint		: STRING;
+		lpm_pipeline		: NATURAL;
 		lpm_representation		: STRING;
 		lpm_type		: STRING;
 		lpm_width		: NATURAL
 	);
 	PORT (
 			alb	: OUT STD_LOGIC ;
+			clock	: IN STD_LOGIC ;
 			dataa	: IN STD_LOGIC_VECTOR (25 DOWNTO 0);
 			datab	: IN STD_LOGIC_VECTOR (25 DOWNTO 0)
 	);
 	END COMPONENT;
 
 BEGIN
-	sub_wire1_bv(25 DOWNTO 0) <= "00000000000000000000110010";
+	sub_wire1_bv(25 DOWNTO 0) <= "01011111010111100001000000";
 	sub_wire1    <= To_stdlogicvector(sub_wire1_bv);
 	alb    <= sub_wire0;
 
 	LPM_COMPARE_component : LPM_COMPARE
 	GENERIC MAP (
 		lpm_hint => "ONE_INPUT_IS_CONSTANT=YES",
+		lpm_pipeline => 1,
 		lpm_representation => "UNSIGNED",
 		lpm_type => "LPM_COMPARE",
 		lpm_width => 26
 	)
 	PORT MAP (
+		clock => clock,
 		dataa => dataa,
 		datab => sub_wire1,
 		alb => sub_wire0
@@ -103,8 +108,8 @@ END SYN;
 -- Retrieval info: PRIVATE: AneB NUMERIC "0"
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
 -- Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "1"
--- Retrieval info: PRIVATE: Latency NUMERIC "0"
--- Retrieval info: PRIVATE: PortBValue NUMERIC "50"
+-- Retrieval info: PRIVATE: Latency NUMERIC "1"
+-- Retrieval info: PRIVATE: PortBValue NUMERIC "25000000"
 -- Retrieval info: PRIVATE: Radix NUMERIC "10"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: SignedCompare NUMERIC "0"
@@ -115,17 +120,20 @@ END SYN;
 -- Retrieval info: PRIVATE: new_diagram STRING "1"
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: CONSTANT: LPM_HINT STRING "ONE_INPUT_IS_CONSTANT=YES"
+-- Retrieval info: CONSTANT: LPM_PIPELINE NUMERIC "1"
 -- Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "UNSIGNED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COMPARE"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "26"
 -- Retrieval info: USED_PORT: alb 0 0 0 0 OUTPUT NODEFVAL "alb"
+-- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL "clock"
 -- Retrieval info: USED_PORT: dataa 0 0 26 0 INPUT NODEFVAL "dataa[25..0]"
+-- Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
 -- Retrieval info: CONNECT: @dataa 0 0 26 0 dataa 0 0 26 0
--- Retrieval info: CONNECT: @datab 0 0 26 0 50 0 0 26 0
+-- Retrieval info: CONNECT: @datab 0 0 26 0 25000000 0 0 26 0
 -- Retrieval info: CONNECT: alb 0 0 0 0 @alb 0 0 0 0
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare2.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare2.inc FALSE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare2.cmp TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare2.bsf TRUE FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare2.bsf TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare2_inst.vhd FALSE
 -- Retrieval info: LIB_FILE: lpm

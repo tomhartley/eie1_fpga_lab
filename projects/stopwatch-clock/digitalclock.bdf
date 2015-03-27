@@ -35,7 +35,6 @@ applicable agreement for further details.
 	)
 	(flipx)
 	(text "VCC" (rect 136 -1 156 9)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 840 160 888 176))
 )
 (pin
 	(input)
@@ -52,7 +51,38 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -184 456 -128 472))
+)
+(pin
+	(input)
+	(rect 16 304 192 320)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "slow" (rect 9 0 30 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 8 344 184 360)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "fast" (rect 9 0 29 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
 )
 (pin
 	(output)
@@ -69,7 +99,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1696 168 1752 184))
 )
 (pin
 	(output)
@@ -86,7 +115,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1696 504 1752 520))
 )
 (pin
 	(output)
@@ -103,7 +131,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1704 680 1760 696))
 )
 (pin
 	(output)
@@ -120,11 +147,10 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1688 344 1744 360))
 )
 (pin
 	(output)
-	(rect 1528 744 1704 760)
+	(rect 560 200 736 216)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "dot" (rect 90 0 105 12)(font "Arial" ))
 	(pt 0 8)
@@ -137,7 +163,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1704 760 1760 776))
 )
 (symbol
 	(rect 872 200 1112 296)
@@ -465,42 +490,46 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1480 768 1512 800)
-	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
-	(text "inst13" (rect 3 21 32 33)(font "Arial" )(invisible))
-	(port
-		(pt 16 0)
-		(output)
-		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
-		(line (pt 16 8)(pt 16 0))
-	)
-	(drawing
-		(line (pt 8 8)(pt 16 16))
-		(line (pt 16 16)(pt 24 8))
-		(line (pt 8 8)(pt 24 8))
-	)
-)
-(symbol
-	(rect 336 248 448 344)
+	(rect 336 248 464 344)
 	(text "digtalclkdivide" (rect 5 0 82 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "clkin" (rect 0 0 24 14)(font "Arial" (font_size 8)))
-		(text "clkin" (rect 21 27 45 41)(font "Arial" (font_size 8)))
+		(text "button0" (rect 0 0 42 14)(font "Arial" (font_size 8)))
+		(text "button0" (rect 21 27 63 41)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
-		(pt 112 32)
+		(pt 0 48)
+		(input)
+		(text "button1" (rect 0 0 42 14)(font "Arial" (font_size 8)))
+		(text "button1" (rect 21 43 63 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "clkin" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "clkin" (rect 21 59 45 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 128 32)
+		(output)
+		(text "dot" (rect 0 0 17 14)(font "Arial" (font_size 8)))
+		(text "dot" (rect 90 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 128 32)(pt 112 32))
+	)
+	(port
+		(pt 128 48)
 		(output)
 		(text "clkout" (rect 0 0 33 14)(font "Arial" (font_size 8)))
-		(text "clkout" (rect 58 27 91 41)(font "Arial" (font_size 8)))
-		(line (pt 112 32)(pt 96 32))
+		(text "clkout" (rect 74 43 107 57)(font "Arial" (font_size 8)))
+		(line (pt 128 48)(pt 112 48))
 	)
 	(drawing
-		(rectangle (rect 16 16 96 80))
+		(rectangle (rect 16 16 112 80))
 	)
 )
 (symbol
@@ -772,14 +801,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1528 752)
-	(pt 1496 752)
-)
-(connector
-	(pt 1496 768)
-	(pt 1496 752)
-)
-(connector
 	(pt 848 232)
 	(pt 872 232)
 	(bus)
@@ -848,13 +869,65 @@ applicable agreement for further details.
 	(pt 184 272)
 )
 (connector
-	(text "global_clk" (rect 290 264 338 276)(font "Arial" ))
-	(pt 280 280)
+	(text "global_clk" (rect 290 296 338 308)(font "Arial" ))
+	(pt 336 312)
+	(pt 280 312)
+)
+(connector
+	(pt 240 352)
+	(pt 240 296)
+)
+(connector
+	(pt 240 296)
+	(pt 336 296)
+)
+(connector
+	(pt 208 280)
 	(pt 336 280)
 )
 (connector
-	(pt 448 280)
+	(pt 208 312)
+	(pt 208 280)
+)
+(connector
+	(pt 240 352)
+	(pt 184 352)
+)
+(connector
+	(pt 184 352)
+	(pt 176 352)
+)
+(connector
+	(pt 184 312)
+	(pt 192 312)
+)
+(connector
+	(pt 192 312)
+	(pt 208 312)
+)
+(connector
+	(pt 464 296)
+	(pt 520 296)
+)
+(connector
+	(pt 520 296)
+	(pt 520 280)
+)
+(connector
+	(pt 520 280)
 	(pt 616 280)
+)
+(connector
+	(pt 488 280)
+	(pt 464 280)
+)
+(connector
+	(pt 488 280)
+	(pt 488 208)
+)
+(connector
+	(pt 488 208)
+	(pt 560 208)
 )
 (junction (pt 1192 280))
 (junction (pt 1216 312))
@@ -865,6 +938,8 @@ applicable agreement for further details.
 (junction (pt 1240 152))
 (junction (pt 1240 520))
 (junction (pt 1216 672))
+(junction (pt 184 352))
+(junction (pt 192 312))
 (text "Global Clock Generator" (rect 16 224 253 246)(font "Arial" (font_size 14)))
 (text "State Machine" (rect 16 176 158 198)(font "Arial" (font_size 14)))
 (text "BCD Counter" (rect 600 400 738 422)(font "Arial" (font_size 14)))

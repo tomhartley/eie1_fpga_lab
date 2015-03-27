@@ -1,10 +1,9 @@
-ENA_REGISTER_MODE="falling edge"
-INTENDED_DEVICE_FAMILY="Cyclone III"
-USE_GLITCH_FREE_SWITCH_OVER_IMPLEMENTATION=OFF
-clock_type=AUTO
+LPM_SIZE=2
+LPM_TYPE=LPM_MUX
+LPM_WIDTH=1
+LPM_WIDTHS=1
 DEVICE_FAMILY="Cyclone III"
-clkselect
-ena
-inclk
-inclk
-outclk
+data
+data
+sel
+result

@@ -1,14 +1,14 @@
-Fitter Status : Successful - Thu Mar 26 17:07:08 2015
+Fitter Status : Successful - Fri Mar 27 11:51:45 2015
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : stopwatch
 Top-level Entity Name : topclockblock
 Family : Cyclone III
 Device : EP3C16F484C6
 Timing Models : Final
-Total logic elements : 235 / 15,408 ( 2 % )
-    Total combinational functions : 232 / 15,408 ( 2 % )
-    Dedicated logic registers : 181 / 15,408 ( 1 % )
-Total registers : 181
+Total logic elements : 275 / 15,408 ( 2 % )
+    Total combinational functions : 273 / 15,408 ( 2 % )
+    Dedicated logic registers : 202 / 15,408 ( 1 % )
+Total registers : 202
 Total pins : 34 / 347 ( 10 % )
 Total virtual pins : 0
 Total memory bits : 0 / 516,096 ( 0 % )
